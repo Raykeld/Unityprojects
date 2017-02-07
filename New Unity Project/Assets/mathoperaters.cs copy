@@ -1,0 +1,23 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class mathoperaters : MonoBehaviour {
+	private float pi = 3.14159f;
+	private float radius = 2.5f;
+
+	// Use this for initialization
+	void Start () {
+		//find the diameter of the circle
+		float diameter = 2 * radius;
+		print ("The diameter of the circle with radius " + radius + " is " + diameter);
+		//finding area of a circle
+		float area = pi * radius * radius;
+		print ("The area of the circle with a radius " + radius + " is " + area);
+		float volume = (4 / 3) * pi * (radius * radius * radius);
+		print ("The volume of the circle with the radius " + radius + " is " + volume); 
+
+	}
+	
+
+}

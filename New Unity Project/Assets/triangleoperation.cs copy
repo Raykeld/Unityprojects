@@ -1,0 +1,19 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class triangleoperation : MonoBehaviour {
+	private float Base = 5;
+	private float height = 6;
+
+	// Use this for initialization
+	void Start () {
+		float area = (Base * height) / 2;
+		print ("the area of a triangle with base and height is " + area);
+		
+	}
+	
+
+		
+	}
+

@@ -1,0 +1,20 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class quareoperations : MonoBehaviour {
+	private float length = 4;
+	private float width = 3;
+
+	// Use this for initialization
+	void Start () {
+		float perimeter = length + width + length + width;
+		print ("the perimeter of square with width and length of square is " + perimeter);
+		float area = length * width;
+		print ("the area of quare with length and width is" + area);
+
+	}
+
+
+	}
+
