@@ -1,0 +1,59 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class IfStatementsHW : MonoBehaviour {
+	private string name = "Clayton";
+	private bool PCMasterRace = false;
+	private string game = "Destiny";
+	private int B = 6;
+	private int K = 8;
+	private string Champ = "Kennen";
+	private string Hero = "Mercy";
+	private bool Overwatch = false;
+	private string Comp = "Razor";
+		// Use this for initialization
+	void Start () {
+		if (name != "Sam"){
+			print ("Clayton is bad at Overwatch");
+		}
+		if (PCMasterRace != true)
+		{
+			print ("Xbox Master Race");
+			PCMasterRace = true;
+		}
+		if (game == "Destiny") {
+			print ("Destiny is now broken");
+		}
+		if (B <= K) {
+			print (" you are a BK");
+		}
+		if (B != K)
+		{
+			print ("you are still a BK");
+		}
+		if (Champ == "Kennen") {
+			print ("Boosted");
+		}
+		if (Hero == "Mercy") {
+			print ("Mercy is a God");
+		}
+		if (Overwatch != true) {
+			print ("My solo queue teams always suck");
+			Overwatch = false;
+		}
+		if (Comp == "Razor")
+		{
+			print ("dream pc<3");
+		}
+		if (Comp != "Razor") {
+			print ("you are an idiot");
+		}
+	
+
+
+
+	}
+
+	}
+
