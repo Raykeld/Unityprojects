@@ -1,0 +1,24 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ifelsestatements : MonoBehaviour {
+	private int time = 7;
+	// Use this for initialization
+	void Start () {
+		if (time == 7) {
+			print ("wake up man");
+		} else if (time <= 7) {
+			print ("keep sleeping ");
+		} else if (time <= 4) {
+			print ("plz dont wake up");
+		} else if (time >= 7) {
+			print ("WAKE UP YOU GOING TO BE LATE");
+		} else {
+			print ("Yep you late D:");
+		}
+			
+		}
+
+	}
+
