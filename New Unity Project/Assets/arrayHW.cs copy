@@ -1,0 +1,38 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class arrayHW : MonoBehaviour {
+	private string[] adj1 = ( "old" , "smelly" , "bad", "ugly", "lame" );
+	private string[] job = ("teacher" , "plumber", "cashier", "hit man");
+	private string[] person = ("Clayton" , "Sam", "Josh", "Ryan", "Chris");
+	private  string[] verb = ( "sleep" , "eat" , "climb" , "run");
+	private int[] num = ( 4 , 10 , 11 , 18 , 13);
+	private string[] adj2 = ( "scary" , "funny" , "happy" , "sad" , "mean");
+	private string[] pnoun = ( "bugs" , "penguins", "tigers" , "umbrellas"); 
+	private string[] timeUnit = ( "days" , "weeks" , "Months" , "years" , "millenium");
+	private string[] villians = ( "the bronze knee cap" , "the Joker" , "Clayface");
+	private string RandomNum;
+	// Use this for initialization
+	void Start () {
+		RandomNum = Random.Range (adj1);
+		RandomNum = Random.Range (job);
+		RandomNum = Random.Range (person);
+		RandomNum = Random.Range (verb);
+		RandomNum = Random.Range (num);
+		RandomNum = Random.Range (adj2);
+		RandomNum = Random.Range (pnoun);
+		RandomNum = Random.Range (timeUnit);
+		RandomNum = Random.Range (villians);
+
+		print (" Once upon a time the was a " + adj1 + ": " + job + " named " + person + ". One day" +
+		"he ran into " + adj2 + ": " + pnoun + "that belonged to" + villians + ". After fighting off" +
+		" the " + adj2 + ": " + pnoun + "Our" + job + " was finally able to beat his nemisis" + villians +
+		" The End ");
+
+		
+
+
+		
+	}
+}
